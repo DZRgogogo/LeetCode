@@ -6,10 +6,17 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
+//        return "ListNode{" +
+//                "val=" + val +
+//                ", next=" + next +
+//                '}';
+        ListNode head = this;
+        StringBuilder sb = new StringBuilder();
+        while (head != null) {
+            sb.append(head.val + " ");
+            head = head.next;
+        }
+        return sb.toString();
     }
 
     public ListNode(int val, ListNode next) {

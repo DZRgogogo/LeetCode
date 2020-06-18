@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2385af6d-2f3b-4758-a045-4dd01385eb1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/SumOfTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/SumOfTwoNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/无重复字符的最长子串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/无重复字符的最长子串.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/SumOfTwoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/SumOfTwoNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/ValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/无重复字符的最长子串.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +130,16 @@
       <workItem from="1586741534148" duration="4721000" />
       <workItem from="1586957121771" duration="8912000" />
       <workItem from="1589558997425" duration="6026000" />
-      <workItem from="1592495002038" duration="1997000" />
+      <workItem from="1592495002038" duration="2546000" />
     </task>
+    <task id="LOCAL-00001" summary="合并字符串">
+      <created>1592497109433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592497109433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,5 +155,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="合并字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并字符串" />
   </component>
 </project>

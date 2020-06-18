@@ -49,11 +49,5 @@ public class 无重复字符的最长子串 {
 
     }
 
-    public static void main(String[] args) {
-        无重复字符的最长子串 s = new 无重复字符的最长子串();
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        int a =s.lengthOfLongestSubstring(str);
-        System.out.println(a);
-    }
+
 }
