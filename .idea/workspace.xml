@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2385af6d-2f3b-4758-a045-4dd01385eb1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/MaximumSubarray53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/SumOfTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/SumOfTwoNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/无重复字符的最长子串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/无重复字符的最长子串.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/SumOfTwoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/SumOfTwoNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/ValidParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/denggeniubi/www/无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/无重复字符的最长子串.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +50,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedLists">
+  <component name="RunManager" selected="Application.MaximumSubarray53">
     <configuration name="无重复字符的最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.无重复字符的最长子串" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.denggeniubi.www.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubarray53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.MaximumSubarray53" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -111,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubarray53" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.无重复字符的最长子串" />
         <item itemvalue="Application.SumOfTwoNumber" />
@@ -130,7 +138,7 @@
       <workItem from="1586741534148" duration="4721000" />
       <workItem from="1586957121771" duration="8912000" />
       <workItem from="1589558997425" duration="6026000" />
-      <workItem from="1592495002038" duration="2546000" />
+      <workItem from="1592495002038" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="合并字符串">
       <created>1592497109433</created>
