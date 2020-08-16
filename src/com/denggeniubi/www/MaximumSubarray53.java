@@ -1,28 +1,48 @@
 package com.denggeniubi.www;
-//给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
-//示例:
-//输入: [-2,1,-3,4,-1,2,1,-5,4],
-//输出: 6
-//解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
+
+import java.util.Arrays;
 
 public class MaximumSubarray53 {
-    public int maxSubArray(int[] nums) {
-        //思想：
-        // 前面的和如果小于0，那么就舍弃，例如，-2,1，那么在遍历到1的时候，加上前面的-2肯定更小
-        //大于0就保存
-        //另外维护一个maxsum保存当前最大值
-        int maxSum =nums[0];
-        int sum = 0;
-        for (int num:nums)
-        {
-            sum = Math.max(num,num+sum);
-            maxSum = Math.max(sum,maxSum);
+    public static int maxSubArray(int[] nums) {
+        int max_num = nums[0];
+        int sum = nums[0];
+        for(int i = 1;i<nums.length;i++){
+            if(sum>0){
+                sum += nums[i];
+            }else{
+                sum = nums[i];
+            }
+            max_num = Math.max(max_num,sum);
         }
-        return  maxSum;
+        return max_num;
     }
-
+    //动态规划
+    // Kadane算法扫描一次整个数列的所有数值，
+    // 在每一个扫描点计算以该点数值为结束点的子数列的最大和（正数和）。
+    // 该子数列由两部分组成：以前一个位置为结束点的最大子数列、该位置的数值。
+    // 因为该算法用到了“最佳子结构”（以每个位置为终点的最大子数列都是基于其前一位置的最大子数列计算得出,
+    // 该算法可看成动态规划的一个例子。
+    // 状态转移方程：sum[i] = max{sum[i-1]+a[i],a[i]}
+    // 其中(sum[i]记录以a[i]为子序列末端的最大序子列连续和)
+    // 类似于上面的那个
+    public static int maxSubArray1(int[] nums) {
+        int max_num = nums[0];
+        int sum = nums[0];
+        for(int i = 1;i<nums.length;i++){
+//            if(sum>0){
+//                sum += nums[i];
+//            }else{
+//                sum = nums[i];
+//            }
+            sum = Math.max(sum + nums[i],nums[i]);//这句代码就很好的集成了上面的代码
+            max_num = Math.max(max_num,sum);
+        }
+        return max_num;
+    }
     public static void main(String[] args) {
-        MaximumSubarray53 m = new MaximumSubarray53();
-        System.out.println(m.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        int nums[] = {1};
+        int aaa = maxSubArray1(nums);
+        System.out.println(aaa);
+        System.out.println(Arrays.toString(nums));
     }
 }
