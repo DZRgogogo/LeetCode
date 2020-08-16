@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java_servlet_test:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2385af6d-2f3b-4758-a045-4dd01385eb1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/denggeniubi/www/RemoveDuplicatesfromSortedArray26.java" afterDir="false" />
+    <list default="true" id="2385af6d-2f3b-4758-a045-4dd01385eb1e" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/MaximumSubarray53.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/denggeniubi/www/MaximumSubarray53.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -27,17 +47,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1aSutNbrVoajephWwOI0fwTNFgT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/denggeniubi/www" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaproFils\LeetCode\src\com\denggeniubi\www" />
+      <recent name="E:\javaproFils\java_servlet_test\src\cn\dengge" />
+      <recent name="E:\javaproFils\java_servlet_test\src\cn\dengge\util" />
+      <recent name="E:\javaproFils\java_servlet_test\web\WEB-INF\lib" />
+      <recent name="E:\javaproFils\java_servlet_test\web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,13 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesfromSortedArray26">
-    <configuration name="无重复字符的最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.无重复字符的最长子串" />
+  <component name="RunManager" selected="Application.MajorityElement169">
+    <configuration name="BestTimetoBuyandSellStock121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dengge.BestTimetoBuyandSellStock121" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.denggeniubi.www.*" />
+          <option name="PATTERN" value="cn.dengge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarray53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.MaximumSubarray53" />
+    <configuration name="MajorityElement169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.MajorityElement169" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedArray26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.RemoveDuplicatesfromSortedArray26" />
+    <configuration name="MoveZeroes283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.MoveZeroes283" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.SumOfTwoNumber" />
+    <configuration name="SearchInsertPosition35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dengge.SearchInsertPosition35" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.denggeniubi.www.*" />
+          <option name="PATTERN" value="cn.dengge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +162,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.denggeniubi.www.ValidParentheses" />
-      <module name="LeetCode" />
+    <configuration name="UserDaoTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_servlet_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.denggeniubi.www.*" />
+          <option name="PATTERN" value="cn.dengge.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.dengge.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.dengge.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.57" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.57" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="java_servlet_test:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/java_servlet_test_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_57_LeetCode" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4230" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="java_servlet_test:war exploded" />
+        </option>
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicatesfromSortedArray26" />
-        <item itemvalue="Application.MaximumSubarray53" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.无重复字符的最长子串" />
-        <item itemvalue="Application.SumOfTwoNumber" />
+        <item itemvalue="Application.MajorityElement169" />
+        <item itemvalue="Application.MoveZeroes283" />
+        <item itemvalue="Application.SearchInsertPosition35" />
+        <item itemvalue="Application.BestTimetoBuyandSellStock121" />
+        <item itemvalue="JUnit.UserDaoTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +274,11 @@
       <workItem from="1589558997425" duration="6026000" />
       <workItem from="1592495002038" duration="3909000" />
       <workItem from="1592593484079" duration="101000" />
-      <workItem from="1597019126934" duration="2617000" />
+      <workItem from="1597019126934" duration="2777000" />
+      <workItem from="1597076851978" duration="9299000" />
+      <workItem from="1597282868947" duration="53000" />
+      <workItem from="1597565053484" duration="1420000" />
+      <workItem from="1597591086706" duration="3258000" />
     </task>
     <task id="LOCAL-00001" summary="合并字符串">
       <created>1592497109433</created>
@@ -164,11 +287,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592497109433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add">
+      <created>1597162684158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597162684158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1597591214181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597591214181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="169、283">
+      <created>1597594472113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597594472113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -184,7 +338,39 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="合并字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并字符串" />
+    <MESSAGE value="add" />
+    <MESSAGE value="169、283" />
+    <option name="LAST_COMMIT_MESSAGE" value="169、283" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/denggeniubi/www/MajorityElement169.java</url>
+          <line>51</line>
+          <properties class="com.denggeniubi.www.MajorityElement169" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/denggeniubi/www/MajorityElement169.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/denggeniubi/www/MajorityElement169.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/denggeniubi/www/MajorityElement169.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
