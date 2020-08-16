@@ -7,7 +7,7 @@ package com.denggeniubi.www;
 //        必须在原数组上操作，不能拷贝额外的数组。
 //        尽量减少操作次数。
 public class MoveZeroes283 {
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
         if(nums==null) {
             return;
         }
@@ -24,7 +24,7 @@ public class MoveZeroes283 {
             nums[i] = 0;
         }
     }
-    public void moveZeroes1(int[] nums) {
+    public static void moveZeroes1(int[] nums) {
         if(nums==null) {
             return;
         }
@@ -41,7 +41,7 @@ public class MoveZeroes283 {
     }
     public static void main(String[] args) {
         int nums[] = {7,1,5,3,6,4};
-        int aaa = maxProfit1(nums);
-        System.out.println(aaa);
+//        int aaa = moveZeroes(nums);
+//        System.out.println(aaa);
     }
 }
